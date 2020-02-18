@@ -22,6 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\KuuhakuFramework.AspNetCore.Models\KuuhakuFramework.AspNetCore.Models.csproj" />
     <ProjectReference Include="..\KuuhakuFramework.AspNetCore.Security\KuuhakuFramework.AspNetCore.Security.csproj" />
   </ItemGroup>
 

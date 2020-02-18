@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29521.150
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KuuhakuFramework.AspNetCore.DependencyInjection", "KuuhakuFramework.AspNetCore.DependencyInjection\KuuhakuFramework.AspNetCore.DependencyInjection.csproj", "{813486E7-D083-4C75-859E-8973C8ADC2D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KuuhakuFramework.AspNetCore.DependencyInjection", "KuuhakuFramework.AspNetCore.DependencyInjection\KuuhakuFramework.AspNetCore.DependencyInjection.csproj", "{813486E7-D083-4C75-859E-8973C8ADC2D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KuuhakuFramework.AspNetCore.Security", "KuuhakuFramework.AspNetCore.Security\KuuhakuFramework.AspNetCore.Security.csproj", "{8C763A2C-862F-4048-AC23-80859BF0D380}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KuuhakuFramework.AspNetCore.Security", "KuuhakuFramework.AspNetCore.Security\KuuhakuFramework.AspNetCore.Security.csproj", "{8C763A2C-862F-4048-AC23-80859BF0D380}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KuuhakuFramework.AspNetCore.Models", "KuuhakuFramework.AspNetCore.Models\KuuhakuFramework.AspNetCore.Models.csproj", "{DBF3D00B-CA0F-4A7D-869B-18A43B1980F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KuuhakuFramework.AspNetCore.Repository", "KuuhakuFramework.AspNetCore.Repository\KuuhakuFramework.AspNetCore.Repository.csproj", "{FBB47032-22E8-4A7F-BC6A-F52E39248D71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KuuhakuFramework.AspNetCore.Resources", "KuuhakuFramework.AspNetCore.Resources\KuuhakuFramework.AspNetCore.Resources.csproj", "{2F89B673-699F-4911-83BD-00146F6F2832}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{8C763A2C-862F-4048-AC23-80859BF0D380}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C763A2C-862F-4048-AC23-80859BF0D380}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C763A2C-862F-4048-AC23-80859BF0D380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBF3D00B-CA0F-4A7D-869B-18A43B1980F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF3D00B-CA0F-4A7D-869B-18A43B1980F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF3D00B-CA0F-4A7D-869B-18A43B1980F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF3D00B-CA0F-4A7D-869B-18A43B1980F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBB47032-22E8-4A7F-BC6A-F52E39248D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB47032-22E8-4A7F-BC6A-F52E39248D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB47032-22E8-4A7F-BC6A-F52E39248D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB47032-22E8-4A7F-BC6A-F52E39248D71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F89B673-699F-4911-83BD-00146F6F2832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F89B673-699F-4911-83BD-00146F6F2832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F89B673-699F-4911-83BD-00146F6F2832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F89B673-699F-4911-83BD-00146F6F2832}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
